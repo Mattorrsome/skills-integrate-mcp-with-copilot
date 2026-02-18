@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Prepare filtered/sorted list
     let entries = Object.entries(allActivities);
     if (filter) {
-      entries = entries.filter(([_, details]) => (details.category || "").toLowerCase() === filter);
+      entries = entries.filter(([, details]) => (details.category || "").toLowerCase() === filter);
     }
     if (search) {
       entries = entries.filter(([name, details]) =>

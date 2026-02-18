@@ -1,3 +1,23 @@
+/* Activity controls (search, filter, sort) */
+#activity-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 18px;
+}
+#activity-controls input,
+#activity-controls select {
+  font-size: 1rem;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  padding: 6px 10px;
+  background: #fff;
+}
+#activity-controls input:focus,
+#activity-controls select:focus {
+  outline: 2px solid #1a237e;
+}
 * {
   box-sizing: border-box;
   margin: 0;
